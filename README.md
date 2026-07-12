@@ -6,11 +6,6 @@
 
 **მასშტაბი:** ~3,300 დროითი მწკრივი (`Store × Dept`), 421,570 სატრენინგო და 115,064 სატესტო row.
 
-### შეფასების მეტრიკა - WMAE
-
-მოდელი ფასდება **Weighted Mean Absolute Error**-ით, სადაც **დღესასწაულების კვირები (holiday weeks) 5-ჯერ მეტ წონას იღებს**:
-
-
 > ვინაიდან WMAE დღესასწაულებს 5× წონას აძლევს, **ყველა მოდელში loss function გავათანაბრეთ ამ მეტრიკასთან** - tree-based მოდელებში `objective="reg:absoluteerror"` / `"regression_l1"` (L1 = MAE) + `holiday_weight=5.0` sample weight; DL მოდელებში `L1Loss` + 5× holiday sample weight; TFT-ში quantile loss q=0.50 (median = L1). ამის შედეგად სატრენინგო loss პირდაპირ WMAE-ს ემთხვევა.
 
 ### რეპოზიტორიის სტრუქტურა
