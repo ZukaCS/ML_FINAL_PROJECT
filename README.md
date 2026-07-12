@@ -196,4 +196,4 @@ Darts ბიბლიოთეკის ბაზაზე დავაპრო
 
 ---
 
-*MLflow: [ZukaCS/ML_FINAL_PROJECT](https://dagshub.com/ZukaCS/ML_FINAL_PROJECT.mlflow) · გუნდი: 2 პირი · Kaggle: Walmart Recruiting - Store Sales Forecasting*
+*MLflow: [ZukaCS/ML_FINAL_PROJECT](https://dagshub.com/ZukaCS/ML_FINAL_PROJECT.mlflow) 
