@@ -192,5 +192,6 @@ Darts ბიბლიოთეკის ბაზაზე დავაპრო
 - **ინფრასტრუქტურის მნიშვნელობა:** MLflow-ს გამოყენებამ Stage-ების მიხედვით დაგვიზოგა დრო და მოგვცა საშუალება, მკაფიოდ დაგვენახა, თუ რომელმა ცვლადმა ან ჰიპერპარამეტრმა მოიტანა რეალური გაუმჯობესება ლიდერბორდზე.
 
 ---
+![Model Results](images/image.png)
 
 *MLflow: [ZukaCS/ML_FINAL_PROJECT](https://dagshub.com/ZukaCS/ML_FINAL_PROJECT.mlflow) · Kaggle: Walmart Recruiting - Store Sales Forecasting*
