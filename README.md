@@ -70,7 +70,7 @@ ML_FINAL_PROJECT/
 | **negative sales (~0.3%)** | დაბრუნებები (returns), median ≈ −$1 | clip to 0 |
 | **skewness = 3.26** | გაყიდვების right-skewed განაწილება | `log1p` შემოწმდა A/B-ით ხეებში ხოლო სხვა მოდელებში target უმეტესად გავალოგარითმეთ|
 | **MarkDown 1-5** | sparse, მხოლოდ 2011 ნოემბრის შემდეგ | zero-impute; მცირე სიგნალი |
-| **pre-Christmas week** | `IsHoliday` **ვერ ხედავს** შობის წინა კვირის პიკს | Prophet-ის holidays table-ში ხელით დაემატა (EDA finding) |
+| **pre-Christmas week** | `IsHoliday` **ვერ ხედავს** შობის წინა კვირის პიკს | ხელით დავამატეთ შესაბამისი feature-ები, კონკრეტული მოდელებისთვის |
 
 **shared reshaping (`Cleaner` + `build_target_series`):**
 
